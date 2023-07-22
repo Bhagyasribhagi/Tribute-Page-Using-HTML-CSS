@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+  box-sizing: border-box;
+}
+
+
+.bg-con{
+    background-color: black;
+    min-height: 100vh;
+    border: 2px solid ;
+    color:white;
+}
+.content{
+    max-width: 900px;
+    margin:0 auto 50px;
+   
+}
+.head{
+    text-align: center;
+    font-weight: bold;
+    font-family: "roboto";
+    padding-top:20px ;
+}
+.image{
+    width: 250px;
+    height: 270px;
+    border-radius: 50%;
+    
+}
+.section1{
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.section1 h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: orange;
+    text-transform: uppercase;
+   
+}
+.section1 h3{
+    text-align: end;
+    font-size: 25px;
+}
+.main{
+    margin-top: 90px;
+    background-color:#1f2124;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+.bio-section{
+    font-family: "roboto";
+}
+.bio-section h1{
+    font-size: 20px;
+    padding: 10px;
+}
+.bio-section p{
+    padding: 10px;
+    font-size: 15px;
+}
+.awards h1{
+      font-size: 20px;
+      font-family: "roboto";
+      padding: 10px;
+
+}
+.awards ul li{
+    list-style-type:none;
+  
+}
+.list{
+    padding: 10px;
+    font-size: 15px;
+    font-family: "roboto";
+    
+}
+h1{
+    color: orange;
+}
+.logo{
+    color:rgb(216, 68, 117);
+}
+.logog{
+    color: blue;
+    font-size: 40px;
+}
+.l1{
+    color: red;
+    font-size: 40px;
+}
+.l2{
+    color: yellow;
+    font-size: 40px;
+}
+.l3{
+    color: green;
+    font-size: 40px;
+}
